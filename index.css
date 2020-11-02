@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    width: 115px;
+    padding: 8px;
+    margin: 30px auto;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: white;
+
+}
+
+
+header img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.header-container {
+    display: inline-flex;
+    flex-flow: column wrap;
+    height: 200px;
+    padding: 5%;
+    
+}
+
+.header-text {
+    text-align: center;
+    width: 80%;
+    padding: 10px 0;
+    margin: 5%;
+}
+
+.navbar a.plan {
+    background-color: #FF764E
+}
+
+.navbar a.learn {
+    background-color: #5ED3EB;
+}
+
+.navbar a.get {
+    background-color: #FFCD69;
+}
+
+.top-container {
+    margin: 5%;
+    background-color: #DDB9A3;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: white;
+    padding: 10px 10px;
+}
+
+.top-container p {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Chelsea Market';
+    padding: 20px;
+}
+
+p, b {
+    font-family: 'Roboto Mono';
+    text-align: center;
+}
+
+.middle-container p, .middle-container b {
+    margin: 0 35%;
+    text-align: center;
+}
+
+.bottom-container p, .bottom-container b {
+    margin: 0 35%;
+    text-align: center;
+}
+
+
+section img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 10px;
+}
+
+footer img {
+    height: 300px;
+    width: 1000px;
+}
+
+footer {
+    background-color: #F9E7DC
+}
+
+b {
+    font-weight: 900;
+    text-align: center;
+}
